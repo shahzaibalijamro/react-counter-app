@@ -20,9 +20,9 @@ function App() {
         <h1>{num}</h1>
       </div>
       <div className="flex justify-center items-center gap-x-3">
-        <button className="btn text-white btn-primary" onClick={addCounter}>Add</button>
-        <button className="btn text-black btn-warning" onClick={subtractCounter}>Sub</button>
-        <button className="btn text-white bg-[red]" onClick={resetCounter}>Reset</button>
+        <button className="btn text-white bg-[#35ca45] hover:bg-[#2ba237] hover:border-[#2ba237] border-[#35ca45] btn-primary" onClick={addCounter}>Add</button>
+        <button className="btn text-black btn-warning" onClick={subtractCounter}>Subtract</button>
+        <button className="btn text-white hover:bg-[#b10101] hover:border-[#b10101] bg-[red]" onClick={resetCounter}>Reset</button>
       </div>
       </div>
     </div>
